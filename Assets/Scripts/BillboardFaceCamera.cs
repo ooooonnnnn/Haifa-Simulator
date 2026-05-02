@@ -1,16 +1,20 @@
+using System;
 using UnityEngine;
 
+[RequireComponent(typeof(Canvas))]
 public class BillboardFaceCamera : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField, HideInInspector] private Canvas canvas;
+    [SerializeField, HideInInspector] private Camera targetCamera;
+
+    private void OnValidate()
     {
-        
+        canvas = GetComponent<Canvas>();
+        targetCamera = canvas.worldCamera;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        transform.rotation = Quaternion.LookRotation(targetCamera.transform.forward);
     }
 }
