@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7f845f3-134e-46c9-a4cc-60496cf1fa32" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Haifa Simulator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Haifa Simulator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/DestroyOnFastCollision.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DestroyOnFastCollision.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1777701169930</updated>
-      <workItem from="1777701172435" duration="2391000" />
+      <workItem from="1777701172435" duration="2702000" />
     </task>
     <servers />
   </component>
