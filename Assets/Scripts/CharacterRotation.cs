@@ -2,18 +2,11 @@ using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-[RequireComponent(typeof(Rigidbody))]
-public class CharacterRotation : MonoBehaviour
+public class CharacterRotation : RigidbodyController
 {
-    [SerializeField, HideInInspector] private new Rigidbody rigidbody;
     [SerializeField] private float rotationSpeed;
 
     private float _input;
-
-    private void OnValidate()
-    {
-        rigidbody = GetComponent<Rigidbody>();
-    }
 
     public void Rotate(InputAction.CallbackContext ctx) => _input = ctx.ReadValue<Vector2>().x;
 
