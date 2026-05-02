@@ -19,6 +19,11 @@ public class DisplayNumericValue : MonoBehaviour
         }
 
         if (!text) return;
-        text.text = string.Format(format, numericProperty.GetNumericPropertyValue());
+        DisplayValue(numericProperty.GetNumericPropertyValue());
+    }
+    
+    public void DisplayValue(float value)
+    {
+        text.text = string.Format(format, value);
     }
 }
