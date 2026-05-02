@@ -175,6 +175,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1588712898}
+        m_TargetAssemblyTypeName: CharacterRotation, Assembly-CSharp
+        m_MethodName: Rotate
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 351f2ccd-1f9f-44bf-9bec-d62ac5c5f408
     m_ActionName: 'Player/Move[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]'
   - m_PersistentCalls:
@@ -823,6 +835,7 @@ GameObject:
   - component: {fileID: 1588712893}
   - component: {fileID: 1588712892}
   - component: {fileID: 1588712897}
+  - component: {fileID: 1588712898}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -965,6 +978,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   acceleration: 10
   rigidbody: {fileID: 1588712892}
+--- !u!114 &1588712898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588712891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db6d660247fd93f459aa58ed5a3d0523, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterRotation
+  rotationSpeed: 100
 --- !u!1001 &1147302243226275357
 PrefabInstance:
   m_ObjectHideFlags: 0
